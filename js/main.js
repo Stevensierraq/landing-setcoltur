@@ -15,12 +15,12 @@ $(document).ready(function(){
 
     $(window).on('scroll', function(){
         if($(window).scrollTop() > top){
-            $('header').addClass('header-fixed');
+            $('#nav').addClass('nav-fixed');
             $('#logo').addClass('none');
-            $('#logo-text').removeClass('none');
+            $('.logo-text').removeClass('none');
         }else{
-            $('header').removeClass('header-fixed');
-            $('#logo-text').addClass('none');
+            $('#nav').removeClass('nav-fixed');
+            $('.logo-text').addClass('none');
             $('#logo').removeClass('none');
         }
     });
