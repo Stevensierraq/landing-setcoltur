@@ -24,6 +24,9 @@ $(document).ready(function(){
             $('#logo').removeClass('none');
         }
     });
+
+
+        
 });
 
   /*---  Scroll Home --*/
