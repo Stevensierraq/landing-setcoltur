@@ -663,6 +663,10 @@ section.callaction {
 	margin-bottom: 20px;
 }
 
+.none {
+	display: none;
+}
+
 /* ---- parallax ---- */
 
 .parallax {
